@@ -1,0 +1,28 @@
+.navega {
+  background: #c05e51;
+  padding: 1rem;
+}
+
+.navega nav {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navega a.marca {
+  text-decoration: none;
+  margin: 0 2em;
+}
+
+.navega a:last-child {
+  margin: 0 2em;
+  padding: .25em 2em;
+  border: 1px solid #fff;
+  border-radius: 1em;
+}
+.navega a:last-child:hover {
+  background: #fff;
+  color: #333;
+}
