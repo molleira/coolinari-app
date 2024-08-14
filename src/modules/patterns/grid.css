@@ -1,0 +1,62 @@
+/* Grid.css */
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  grid-gap: var(--grid-gap);
+  grid-template-rows: var(--grid-rows);
+}
+
+.grid-item {
+  grid-column: span var(--grid-item-col-span);
+  grid-row: span var(--grid-item-row-span);
+} */
+
+/* GridComponents.css */
+
+/* Grid container with gutters and margins */
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(var(--columns, 12), 1fr); /* Number of columns can be customized */
+  /*gap: var(--gap, 20px); /* Gap between items (gutter) */
+  /*margin: 20px; /* Margin around the grid container */
+/*}*/
+
+/* Grid item */
+/* .grid-item { */
+  /* padding: 10px; /* Padding inside grid items */
+  /*background-color: #f4f4f4; /* Background color for visualization */
+  /*border: 1px solid #ddd; /* Border for visualization */
+  /*box-sizing: border-box; /* Ensure padding and border are included in item width */
+/*} */
+
+/* Responsive grid item width based on column span */
+/* .grid-item[data-col-span] {
+  grid-column: span var(--col-span);
+} */
+
+/* GridComponents.css */
+
+/* Grid container with gutters and margins */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--columns, 12), 1fr); /* Number of columns can be customized */
+  gap: var(--gap, 20px); /* Gap between items (gutter) */
+  /*margin: 20px; /* Margin around the grid container */
+  margin: 0 auto; /* Center the grid container horizontally */
+  max-width: 600px; /* Example max-width */
+}
+
+/* Grid item */
+.grid-item {
+  padding: 10px; /* Padding inside grid items */
+  /*background-color: #f4f4f4; /* Background color for visualization */
+  /*border: 1px solid #ddd; /* Border for visualization */
+  box-sizing: border-box; /* Ensure padding and border are included in item width */
+  grid-column: span var(--col-span, 1); /* Define column span dynamically */
+}
+
+/* Responsive grid item width based on column span */
+.grid-item[data-col-span] {
+  grid-column: span var(--col-span);
+}
+

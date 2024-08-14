@@ -1,4 +1,4 @@
-.recepta {
+/* .recepta {
   margin-top: 2em;
 }
 .llista {
@@ -15,4 +15,31 @@
 .fila03 p {
   margin-left: 2em;
   margin-bottom: 1em;
+} */
+
+.recipe-list {
+  margin: 20px;
+}
+
+.recepta {
+  margin-bottom: 20px;
+}
+
+.fila01, .fila03 {
+  padding: 10px;
+  border-right: 1px solid #fff;
+  /*background-color: #f4f4f4; /* Example background color */
+}
+
+.fila01 {
+  /*background-color: #cce5ff; /* Light blue for fila01 */
+}
+
+.fila03 {
+  /*background-color: #d4edda; /* Light green for fila03 */
+}
+
+.separador {
+  margin: 20px 0;
+  /*border-top: 1px solid #ddd; /* Separator styling */
 }
